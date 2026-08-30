@@ -72,12 +72,12 @@ public class representacao_grafos {
     public static void lerArquivo(int arq) {
         // Mensagem
         if (arq == 1) {
-            System.out.println("\nLendo o arquivo: grap-teste-100-1.txt");
+            System.out.println("\nLendo o arquivo: grap-teste-100-1.txt\n");
         } else {
-            System.out.println("\nLendo o arquivo: grap-teste-50000-1.txt");
+            System.out.println("\nLendo o arquivo: grap-teste-50000-1.txt\n");
         }
         // Capturando nome do arquivo
-        String nomeArquivo = (arq == 1) ? "graph-test-100.txt" : "graph-test-50000.txt";
+        String nomeArquivo = (arq == 1) ? "atividade_1/graph-test-100-1.txt" : "atividade_1/graph-test-50000-1.txt";
         grafo.nomeArquivo = nomeArquivo;
 
         // Lendo o arquivo
